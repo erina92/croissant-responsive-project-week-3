@@ -10,6 +10,11 @@ body {
   margin-top: 100px;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
 h1,
 h6 {
   text-align: center;
@@ -17,10 +22,9 @@ h6 {
 }
 
 p {
-  text-align: center;
+  text-align: justify;
   line-height: 1.9;
   margin: 20px auto;
-  padding: 25px;
 }
 
 .links {
@@ -32,10 +36,9 @@ p {
 .links a {
   margin: 20px;
   border-radius: 4px;
-  padding: 10px 15px 10px 15px;
+  padding: 10px;
   text-decoration: none;
   text-transform: capitalize;
-  border: 3px solid coral;
   border-radius: 10px;
 }
 
