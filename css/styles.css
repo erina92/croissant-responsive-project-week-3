@@ -7,21 +7,47 @@ img {
 
 body {
   background: lightyellow;
+  margin-top: 100px;
 }
 
 h1,
 h6 {
   text-align: center;
-  margin: 0 auto;
+  margin: 100 50px;
 }
 
 p {
   text-align: center;
-  line-height: 1.5;
-  margin: 0 auto;
+  line-height: 1.9;
+  margin: 20px auto;
+  padding: 25px;
 }
 
-a {
-  display: block;
-  text-align: center;
+.links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  border: 3px solid coral;
+  border-radius: 10px;
+}
+
+.links a:visited {
+  color: blue;
+}
+
+footer {
+  margin: 50px;
+}
+
+.email {
+  margin: 40px;
+  font-weight: bold;
 }
